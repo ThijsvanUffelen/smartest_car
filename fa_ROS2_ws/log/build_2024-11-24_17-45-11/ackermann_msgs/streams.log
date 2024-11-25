@@ -1,0 +1,46 @@
+[0.027s] Invoking command in '/home/ros2/Documents/fa_ROS2_ws/build/ackermann_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros2/Documents/fa_ROS2_ws/src/ackermann_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros2/Documents/fa_ROS2_ws/install/ackermann_msgs
+[0.047s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.301s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.311s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.315s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.321s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.369s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.406s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.854s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[0.855s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[0.856s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[0.858s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.232s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.763s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.800s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.831s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.831s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.831s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.875s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[1.875s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[1.889s] -- Configuring done
+[1.947s] -- Generating done
+[1.956s] -- Build files have been written to: /home/ros2/Documents/fa_ROS2_ws/build/ackermann_msgs
+[1.982s] Invoked command in '/home/ros2/Documents/fa_ROS2_ws/build/ackermann_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros2/Documents/fa_ROS2_ws/src/ackermann_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros2/Documents/fa_ROS2_ws/install/ackermann_msgs
+[1.985s] Invoking command in '/home/ros2/Documents/fa_ROS2_ws/build/ackermann_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2/Documents/fa_ROS2_ws/build/ackermann_msgs -- -j8 -l8
+[2.083s] [35m[1mConsolidate compiler generated dependencies of target ackermann_msgs__rosidl_generator_c[0m
+[2.106s] [  2%] Built target ackermann_msgs__cpp
+[2.122s] [ 12%] Built target ackermann_msgs__rosidl_generator_c
+[2.126s] failed to create symbolic link '/home/ros2/Documents/fa_ROS2_ws/build/ackermann_msgs/ament_cmake_python/ackermann_msgs/ackermann_msgs' because existing path cannot be removed: Is a directory
+[2.127s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_ackermann_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_ackermann_msgs] Error 1
+[2.127s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_ackermann_msgs.dir/all] Error 2
+[2.127s] gmake[1]: *** Waiting for unfinished jobs....
+[2.186s] [35m[1mConsolidate compiler generated dependencies of target ackermann_msgs__rosidl_typesupport_introspection_cpp[0m
+[2.200s] [35m[1mConsolidate compiler generated dependencies of target ackermann_msgs__rosidl_typesupport_cpp[0m
+[2.205s] [35m[1mConsolidate compiler generated dependencies of target ackermann_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[2.206s] [35m[1mConsolidate compiler generated dependencies of target ackermann_msgs__rosidl_typesupport_c[0m
+[2.212s] [35m[1mConsolidate compiler generated dependencies of target ackermann_msgs__rosidl_typesupport_introspection_c[0m
+[2.215s] [35m[1mConsolidate compiler generated dependencies of target ackermann_msgs__rosidl_typesupport_fastrtps_c[0m
+[2.246s] [ 23%] Built target ackermann_msgs__rosidl_typesupport_introspection_cpp
+[2.272s] [ 33%] Built target ackermann_msgs__rosidl_typesupport_cpp
+[2.286s] [ 53%] Built target ackermann_msgs__rosidl_typesupport_introspection_c
+[2.286s] [ 53%] Built target ackermann_msgs__rosidl_typesupport_c
+[2.296s] [ 74%] Built target ackermann_msgs__rosidl_typesupport_fastrtps_c
+[2.296s] [ 74%] Built target ackermann_msgs__rosidl_typesupport_fastrtps_cpp
+[2.299s] gmake: *** [Makefile:146: all] Error 2
+[2.301s] Invoked command in '/home/ros2/Documents/fa_ROS2_ws/build/ackermann_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2/Documents/fa_ROS2_ws/build/ackermann_msgs -- -j8 -l8

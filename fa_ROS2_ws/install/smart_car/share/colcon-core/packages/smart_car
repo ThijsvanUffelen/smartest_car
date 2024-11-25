@@ -1,0 +1,1 @@
+car_gazebo_plugin:gazebo_plugins:gazebo_ros:gazebo_ros_control:gazebo_ros_pkgs:geometry_msgs:joint_state_publisher_gui:nav2_amcl:nav2_bringup:nav2_bt_navigator:nav2_common:nav2_controller:nav2_map_server:nav2_msgs:nav2_planner:nav2_recoveries:nav_msgs:rclcpp:rclpy:sensor_msgs:smartcar_msgs:std_msgs

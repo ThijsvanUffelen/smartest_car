@@ -1,0 +1,192 @@
+[0.192s] Invoking command in '/home/ros2/Documents/fa_ROS2_ws/build/nav2_mppi_controller': AMENT_PREFIX_PATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_core:/home/ros2/Documents/fa_ROS2_ws/install/nav2_costmap_2d:/home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server:/home/ros2/Documents/fa_ROS2_ws/install/nav2_lifecycle_manager:/home/ros2/Documents/fa_ROS2_ws/install/nav2_util:/home/ros2/Documents/fa_ROS2_ws/install/nav2_voxel_grid:/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs:/home/ros2/Documents/fa_ROS2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_core:/home/ros2/Documents/fa_ROS2_ws/install/nav2_costmap_2d:/home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server:/home/ros2/Documents/fa_ROS2_ws/install/nav2_lifecycle_manager:/home/ros2/Documents/fa_ROS2_ws/install/nav2_util:/home/ros2/Documents/fa_ROS2_ws/install/nav2_voxel_grid:/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs:/home/ros2/Documents/fa_ROS2_ws/install/nav2_common:/home/ros2/Documents/fa_ROS2_ws/install/smart_car:/home/ros2/Documents/fa_ROS2_ws/install/car_gazebo_plugin:/home/ros2/Documents/fa_ROS2_ws/install/smartcar_msgs:/home/ros2/Documents/fa_ROS2_ws/install/ackermann_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_costmap_2d/lib:/home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server/lib:/home/ros2/Documents/fa_ROS2_ws/install/nav2_lifecycle_manager/lib:/home/ros2/Documents/fa_ROS2_ws/install/nav2_util/lib:/home/ros2/Documents/fa_ROS2_ws/install/nav2_voxel_grid/lib:/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs/lib:/home/ros2/Documents/fa_ROS2_ws/install/car_gazebo_plugin/lib:/home/ros2/Documents/fa_ROS2_ws/install/smartcar_msgs/lib:/home/ros2/Documents/fa_ROS2_ws/install/ackermann_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorflfrK2/usr/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ros2/Documents/fa_ROS2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ros2/Documents/fa_ROS2_ws/src/navigation2/nav2_mppi_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller
+[0.584s] -- The C compiler identification is GNU 11.4.0
+[0.959s] -- The CXX compiler identification is GNU 11.4.0
+[1.030s] -- Detecting C compiler ABI info
+[1.362s] -- Detecting C compiler ABI info - done
+[1.375s] -- Check for working C compiler: /usr/lib/ccache/gcc - skipped
+[1.375s] -- Detecting C compile features
+[1.376s] -- Detecting C compile features - done
+[1.390s] -- Detecting CXX compiler ABI info
+[1.720s] -- Detecting CXX compiler ABI info - done
+[1.760s] -- Check for working CXX compiler: /usr/lib/ccache/g++ - skipped
+[1.762s] -- Detecting CXX compile features
+[1.763s] -- Detecting CXX compile features - done
+[1.770s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.282s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.509s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.701s] -- Performing Test arch_native_supported
+[3.085s] -- Performing Test arch_native_supported - Success
+[3.121s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[3.217s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.228s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.244s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.285s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.317s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.414s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.424s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[3.480s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.512s] -- Looking for pthread.h
+[4.074s] -- Looking for pthread.h - found
+[4.075s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.443s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.443s] -- Found Threads: TRUE  
+[4.631s] -- Found nav2_common: 1.1.17 (/home/ros2/Documents/fa_ROS2_ws/install/nav2_common/share/nav2_common/cmake)
+[4.637s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[4.736s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[4.776s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[4.861s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[4.891s] -- Found nav2_core: 1.1.17 (/home/ros2/Documents/fa_ROS2_ws/install/nav2_core/share/nav2_core/cmake)
+[5.345s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.348s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.620s] -- Found tf2_eigen: 0.25.7 (/opt/ros/humble/share/tf2_eigen/cmake)
+[5.639s] -- Setting build type to Release as none was specified.
+[5.640s] -- Performing Test COMPILER_SUPPORTS_AVX512
+[6.085s] -- Performing Test COMPILER_SUPPORTS_AVX512 - Success
+[6.099s] -- Performing Test COMPILER_SUPPORTS_SSE4
+[6.547s] -- Performing Test COMPILER_SUPPORTS_SSE4 - Success
+[6.547s] -- Performing Test COMPILER_SUPPORTS_AVX2
+[7.075s] -- Performing Test COMPILER_SUPPORTS_AVX2 - Success
+[7.076s] -- Performing Test COMPILER_SUPPORTS_FMA
+[7.569s] -- Performing Test COMPILER_SUPPORTS_FMA - Success
+[7.835s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.839s] -- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[8.039s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[9.553s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.556s] -- Configured cppcheck include dirs: /home/ros2/Documents/fa_ROS2_ws/src/navigation2/nav2_mppi_controller/include
+[9.556s] -- Configured cppcheck exclude dirs and/or files: 
+[9.564s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[9.564s] -- Configured cpplint exclude dirs and/or files: 
+[9.571s] -- Added test 'lint_cmake' to check CMake code style
+[9.578s] -- Added test 'uncrustify' to check C / C++ code style
+[9.579s] -- Configured uncrustify additional arguments: 
+[9.579s] -- Added test 'xmllint' to check XML markup files
+[9.609s] -- Configuring done
+[11.109s] -- Generating done
+[11.125s] -- Build files have been written to: /home/ros2/Documents/fa_ROS2_ws/build/nav2_mppi_controller
+[11.179s] Invoked command in '/home/ros2/Documents/fa_ROS2_ws/build/nav2_mppi_controller' returned '0': AMENT_PREFIX_PATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_core:/home/ros2/Documents/fa_ROS2_ws/install/nav2_costmap_2d:/home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server:/home/ros2/Documents/fa_ROS2_ws/install/nav2_lifecycle_manager:/home/ros2/Documents/fa_ROS2_ws/install/nav2_util:/home/ros2/Documents/fa_ROS2_ws/install/nav2_voxel_grid:/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs:/home/ros2/Documents/fa_ROS2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_core:/home/ros2/Documents/fa_ROS2_ws/install/nav2_costmap_2d:/home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server:/home/ros2/Documents/fa_ROS2_ws/install/nav2_lifecycle_manager:/home/ros2/Documents/fa_ROS2_ws/install/nav2_util:/home/ros2/Documents/fa_ROS2_ws/install/nav2_voxel_grid:/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs:/home/ros2/Documents/fa_ROS2_ws/install/nav2_common:/home/ros2/Documents/fa_ROS2_ws/install/smart_car:/home/ros2/Documents/fa_ROS2_ws/install/car_gazebo_plugin:/home/ros2/Documents/fa_ROS2_ws/install/smartcar_msgs:/home/ros2/Documents/fa_ROS2_ws/install/ackermann_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_costmap_2d/lib:/home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server/lib:/home/ros2/Documents/fa_ROS2_ws/install/nav2_lifecycle_manager/lib:/home/ros2/Documents/fa_ROS2_ws/install/nav2_util/lib:/home/ros2/Documents/fa_ROS2_ws/install/nav2_voxel_grid/lib:/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs/lib:/home/ros2/Documents/fa_ROS2_ws/install/car_gazebo_plugin/lib:/home/ros2/Documents/fa_ROS2_ws/install/smartcar_msgs/lib:/home/ros2/Documents/fa_ROS2_ws/install/ackermann_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorflfrK2/usr/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ros2/Documents/fa_ROS2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ros2/Documents/fa_ROS2_ws/src/navigation2/nav2_mppi_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller
+[11.180s] Invoking command in '/home/ros2/Documents/fa_ROS2_ws/build/nav2_mppi_controller': AMENT_PREFIX_PATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_core:/home/ros2/Documents/fa_ROS2_ws/install/nav2_costmap_2d:/home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server:/home/ros2/Documents/fa_ROS2_ws/install/nav2_lifecycle_manager:/home/ros2/Documents/fa_ROS2_ws/install/nav2_util:/home/ros2/Documents/fa_ROS2_ws/install/nav2_voxel_grid:/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs:/home/ros2/Documents/fa_ROS2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_core:/home/ros2/Documents/fa_ROS2_ws/install/nav2_costmap_2d:/home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server:/home/ros2/Documents/fa_ROS2_ws/install/nav2_lifecycle_manager:/home/ros2/Documents/fa_ROS2_ws/install/nav2_util:/home/ros2/Documents/fa_ROS2_ws/install/nav2_voxel_grid:/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs:/home/ros2/Documents/fa_ROS2_ws/install/nav2_common:/home/ros2/Documents/fa_ROS2_ws/install/smart_car:/home/ros2/Documents/fa_ROS2_ws/install/car_gazebo_plugin:/home/ros2/Documents/fa_ROS2_ws/install/smartcar_msgs:/home/ros2/Documents/fa_ROS2_ws/install/ackermann_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_costmap_2d/lib:/home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server/lib:/home/ros2/Documents/fa_ROS2_ws/install/nav2_lifecycle_manager/lib:/home/ros2/Documents/fa_ROS2_ws/install/nav2_util/lib:/home/ros2/Documents/fa_ROS2_ws/install/nav2_voxel_grid/lib:/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs/lib:/home/ros2/Documents/fa_ROS2_ws/install/car_gazebo_plugin/lib:/home/ros2/Documents/fa_ROS2_ws/install/smartcar_msgs/lib:/home/ros2/Documents/fa_ROS2_ws/install/ackermann_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorflfrK2/usr/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ros2/Documents/fa_ROS2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/Documents/fa_ROS2_ws/build/nav2_mppi_controller -- -j8 -l8
+[55.884s] [  2%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/controller.cpp.o[0m
+[55.885s] [  4%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/path_handler.cpp.o[0m
+[55.885s] [  6%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/parameters_handler.cpp.o[0m
+[64.469s] [  8%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/noise_generator.cpp.o[0m
+[79.987s] [ 10%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/trajectory_visualizer.cpp.o[0m
+[103.936s] [ 12%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/critic_manager.cpp.o[0m
+[130.399s] [ 14%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/optimizer.cpp.o[0m
+[167.623s] [ 16%] [32m[1mLinking CXX shared library libmppi_controller.so[0m
+[168.521s] [ 16%] Built target mppi_controller
+[168.566s] [ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[168.859s] [ 20%] [32m[1mLinking CXX static library libgtest.a[0m
+[168.958s] [ 20%] Built target gtest
+[169.049s] [ 22%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[169.271s] [ 24%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[169.378s] [ 24%] Built target gtest_main
+[169.430s] [ 26%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/obstacles_critic.cpp.o[0m
+[190.506s] [ 28%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/cost_critic.cpp.o[0m
+[207.574s] [ 30%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/goal_critic.cpp.o[0m
+[227.755s] [ 32%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/goal_angle_critic.cpp.o[0m
+[250.006s] [ 34%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/path_align_critic.cpp.o[0m
+[268.643s] [ 36%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/path_align_legacy_critic.cpp.o[0m
+[289.138s] [ 38%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/path_follow_critic.cpp.o[0m
+[307.835s] [ 40%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/path_angle_critic.cpp.o[0m
+[330.044s] [ 42%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/prefer_forward_critic.cpp.o[0m
+[346.391s] [ 44%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/twirling_critic.cpp.o[0m
+[361.020s] [ 46%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/constraint_critic.cpp.o[0m
+[372.880s] [ 48%] [32mBuilding CXX object test/CMakeFiles/trajectory_visualizer_tests.dir/trajectory_visualizer_tests.cpp.o[0m
+[373.938s] [ 51%] [32mBuilding CXX object test/CMakeFiles/motion_model_tests.dir/motion_model_tests.cpp.o[0m
+[375.000s] [ 53%] [32mBuilding CXX object test/CMakeFiles/parameter_handler_test.dir/parameter_handler_test.cpp.o[0m
+[376.073s] [ 55%] [32mBuilding CXX object test/CMakeFiles/noise_generator_test.dir/noise_generator_test.cpp.o[0m
+[385.091s] [ 57%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/velocity_deadband_critic.cpp.o[0m
+[396.810s] [ 59%] [32m[1mLinking CXX executable parameter_handler_test[0m
+[398.276s] [ 59%] Built target parameter_handler_test
+[399.270s] [ 61%] [32m[1mLinking CXX executable noise_generator_test[0m
+[400.584s] [ 61%] Built target noise_generator_test
+[402.755s] [ 63%] [32m[1mLinking CXX executable motion_model_tests[0m
+[403.608s] [ 63%] Built target motion_model_tests
+[410.179s] [ 65%] [32m[1mLinking CXX shared library libmppi_critics.so[0m
+[410.898s] [ 65%] Built target mppi_critics
+[419.399s] [ 67%] [32m[1mLinking CXX executable trajectory_visualizer_tests[0m
+[420.151s] [ 67%] Built target trajectory_visualizer_tests
+[420.197s] [ 69%] [32mBuilding CXX object test/CMakeFiles/optimizer_unit_tests.dir/optimizer_unit_tests.cpp.o[0m
+[442.113s] [ 71%] [32m[1mLinking CXX executable optimizer_unit_tests[0m
+[442.976s] [ 71%] Built target optimizer_unit_tests
+[443.066s] [ 73%] [32mBuilding CXX object test/CMakeFiles/utils_test.dir/utils_test.cpp.o[0m
+[443.112s] [ 75%] [32mBuilding CXX object test/CMakeFiles/critic_manager_test.dir/critic_manager_test.cpp.o[0m
+[443.112s] [ 77%] [32mBuilding CXX object test/CMakeFiles/critics_tests.dir/critics_tests.cpp.o[0m
+[443.112s] [ 79%] [32mBuilding CXX object test/CMakeFiles/path_handler_test.dir/path_handler_test.cpp.o[0m
+[457.240s] [ 81%] [32m[1mLinking CXX executable path_handler_test[0m
+[458.110s] [ 81%] Built target path_handler_test
+[458.193s] [ 83%] [32mBuilding CXX object test/CMakeFiles/models_test.dir/models_test.cpp.o[0m
+[458.198s] [ 85%] [32mBuilding CXX object test/CMakeFiles/optimizer_smoke_test.dir/optimizer_smoke_test.cpp.o[0m
+[458.208s] [ 87%] [32mBuilding CXX object test/CMakeFiles/controller_state_transition_test.dir/controller_state_transition_test.cpp.o[0m
+[474.289s] [ 89%] [32m[1mLinking CXX executable utils_test[0m
+[477.003s] [ 91%] [32m[1mLinking CXX executable critic_manager_test[0m
+[477.196s] [ 91%] Built target utils_test
+[480.073s] [ 91%] Built target critic_manager_test
+[482.591s] [ 93%] [32m[1mLinking CXX executable models_test[0m
+[484.191s] [ 93%] Built target models_test
+[486.429s] [ 95%] [32m[1mLinking CXX executable critics_tests[0m
+[487.454s] [ 95%] Built target critics_tests
+[493.258s] [ 97%] [32m[1mLinking CXX executable controller_state_transition_test[0m
+[494.072s] [ 97%] Built target controller_state_transition_test
+[495.910s] [100%] [32m[1mLinking CXX executable optimizer_smoke_test[0m
+[496.705s] [100%] Built target optimizer_smoke_test
+[496.737s] Invoked command in '/home/ros2/Documents/fa_ROS2_ws/build/nav2_mppi_controller' returned '0': AMENT_PREFIX_PATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_core:/home/ros2/Documents/fa_ROS2_ws/install/nav2_costmap_2d:/home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server:/home/ros2/Documents/fa_ROS2_ws/install/nav2_lifecycle_manager:/home/ros2/Documents/fa_ROS2_ws/install/nav2_util:/home/ros2/Documents/fa_ROS2_ws/install/nav2_voxel_grid:/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs:/home/ros2/Documents/fa_ROS2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_core:/home/ros2/Documents/fa_ROS2_ws/install/nav2_costmap_2d:/home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server:/home/ros2/Documents/fa_ROS2_ws/install/nav2_lifecycle_manager:/home/ros2/Documents/fa_ROS2_ws/install/nav2_util:/home/ros2/Documents/fa_ROS2_ws/install/nav2_voxel_grid:/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs:/home/ros2/Documents/fa_ROS2_ws/install/nav2_common:/home/ros2/Documents/fa_ROS2_ws/install/smart_car:/home/ros2/Documents/fa_ROS2_ws/install/car_gazebo_plugin:/home/ros2/Documents/fa_ROS2_ws/install/smartcar_msgs:/home/ros2/Documents/fa_ROS2_ws/install/ackermann_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_costmap_2d/lib:/home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server/lib:/home/ros2/Documents/fa_ROS2_ws/install/nav2_lifecycle_manager/lib:/home/ros2/Documents/fa_ROS2_ws/install/nav2_util/lib:/home/ros2/Documents/fa_ROS2_ws/install/nav2_voxel_grid/lib:/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs/lib:/home/ros2/Documents/fa_ROS2_ws/install/car_gazebo_plugin/lib:/home/ros2/Documents/fa_ROS2_ws/install/smartcar_msgs/lib:/home/ros2/Documents/fa_ROS2_ws/install/ackermann_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorflfrK2/usr/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ros2/Documents/fa_ROS2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/Documents/fa_ROS2_ws/build/nav2_mppi_controller -- -j8 -l8
+[496.964s] Invoking command in '/home/ros2/Documents/fa_ROS2_ws/build/nav2_mppi_controller': AMENT_PREFIX_PATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_core:/home/ros2/Documents/fa_ROS2_ws/install/nav2_costmap_2d:/home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server:/home/ros2/Documents/fa_ROS2_ws/install/nav2_lifecycle_manager:/home/ros2/Documents/fa_ROS2_ws/install/nav2_util:/home/ros2/Documents/fa_ROS2_ws/install/nav2_voxel_grid:/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs:/home/ros2/Documents/fa_ROS2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_core:/home/ros2/Documents/fa_ROS2_ws/install/nav2_costmap_2d:/home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server:/home/ros2/Documents/fa_ROS2_ws/install/nav2_lifecycle_manager:/home/ros2/Documents/fa_ROS2_ws/install/nav2_util:/home/ros2/Documents/fa_ROS2_ws/install/nav2_voxel_grid:/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs:/home/ros2/Documents/fa_ROS2_ws/install/nav2_common:/home/ros2/Documents/fa_ROS2_ws/install/smart_car:/home/ros2/Documents/fa_ROS2_ws/install/car_gazebo_plugin:/home/ros2/Documents/fa_ROS2_ws/install/smartcar_msgs:/home/ros2/Documents/fa_ROS2_ws/install/ackermann_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_costmap_2d/lib:/home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server/lib:/home/ros2/Documents/fa_ROS2_ws/install/nav2_lifecycle_manager/lib:/home/ros2/Documents/fa_ROS2_ws/install/nav2_util/lib:/home/ros2/Documents/fa_ROS2_ws/install/nav2_voxel_grid/lib:/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs/lib:/home/ros2/Documents/fa_ROS2_ws/install/car_gazebo_plugin/lib:/home/ros2/Documents/fa_ROS2_ws/install/smartcar_msgs/lib:/home/ros2/Documents/fa_ROS2_ws/install/ackermann_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorflfrK2/usr/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ros2/Documents/fa_ROS2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2/Documents/fa_ROS2_ws/build/nav2_mppi_controller
+[496.978s] -- Install configuration: "Release"
+[496.978s] -- Execute custom install script
+[496.978s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/lib/libmppi_controller.so
+[496.995s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/lib/libmppi_critics.so
+[497.018s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/controller.hpp
+[497.045s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critic_data.hpp
+[497.061s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critic_function.hpp
+[497.078s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critic_manager.hpp
+[497.098s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/constraint_critic.hpp
+[497.118s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/cost_critic.hpp
+[497.136s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/goal_angle_critic.hpp
+[497.158s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/goal_critic.hpp
+[497.174s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/obstacles_critic.hpp
+[497.189s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/path_align_critic.hpp
+[497.209s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/path_align_legacy_critic.hpp
+[497.226s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/path_angle_critic.hpp
+[497.248s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/path_follow_critic.hpp
+[497.264s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/prefer_forward_critic.hpp
+[497.279s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/twirling_critic.hpp
+[497.293s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/velocity_deadband_critic.hpp
+[497.309s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/constraints.hpp
+[497.335s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/control_sequence.hpp
+[497.356s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/optimizer_settings.hpp
+[497.376s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/path.hpp
+[497.392s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/state.hpp
+[497.407s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/trajectories.hpp
+[497.427s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/motion_models.hpp
+[497.444s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/optimizer.hpp
+[497.465s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/noise_generator.hpp
+[497.482s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/parameters_handler.hpp
+[497.499s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/path_handler.hpp
+[497.518s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/trajectory_visualizer.hpp
+[497.539s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/utils.hpp
+[497.557s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/library_path.sh
+[497.573s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/library_path.dsv
+[497.589s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller//mppic.xml
+[497.608s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller//critics.xml
+[497.637s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/share/ament_index/resource_index/package_run_dependencies/nav2_mppi_controller
+[497.656s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/share/ament_index/resource_index/parent_prefix_path/nav2_mppi_controller
+[497.673s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/ament_prefix_path.sh
+[497.690s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/ament_prefix_path.dsv
+[497.709s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/path.sh
+[497.731s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/path.dsv
+[497.751s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.bash
+[497.768s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.sh
+[497.786s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.zsh
+[497.802s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.dsv
+[497.825s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/package.dsv
+[497.851s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/share/ament_index/resource_index/packages/nav2_mppi_controller
+[497.867s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_mppi_controller
+[497.887s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/share/ament_index/resource_index/nav2_mppi_controller__pluginlib__plugin/nav2_mppi_controller
+[497.905s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[497.924s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[497.957s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[497.980s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/nav2_mppi_controllerConfig.cmake
+[497.993s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/nav2_mppi_controllerConfig-version.cmake
+[498.017s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/package.xml
+[498.050s] Invoked command in '/home/ros2/Documents/fa_ROS2_ws/build/nav2_mppi_controller' returned '0': AMENT_PREFIX_PATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_core:/home/ros2/Documents/fa_ROS2_ws/install/nav2_costmap_2d:/home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server:/home/ros2/Documents/fa_ROS2_ws/install/nav2_lifecycle_manager:/home/ros2/Documents/fa_ROS2_ws/install/nav2_util:/home/ros2/Documents/fa_ROS2_ws/install/nav2_voxel_grid:/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs:/home/ros2/Documents/fa_ROS2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_core:/home/ros2/Documents/fa_ROS2_ws/install/nav2_costmap_2d:/home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server:/home/ros2/Documents/fa_ROS2_ws/install/nav2_lifecycle_manager:/home/ros2/Documents/fa_ROS2_ws/install/nav2_util:/home/ros2/Documents/fa_ROS2_ws/install/nav2_voxel_grid:/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs:/home/ros2/Documents/fa_ROS2_ws/install/nav2_common:/home/ros2/Documents/fa_ROS2_ws/install/smart_car:/home/ros2/Documents/fa_ROS2_ws/install/car_gazebo_plugin:/home/ros2/Documents/fa_ROS2_ws/install/smartcar_msgs:/home/ros2/Documents/fa_ROS2_ws/install/ackermann_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_costmap_2d/lib:/home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server/lib:/home/ros2/Documents/fa_ROS2_ws/install/nav2_lifecycle_manager/lib:/home/ros2/Documents/fa_ROS2_ws/install/nav2_util/lib:/home/ros2/Documents/fa_ROS2_ws/install/nav2_voxel_grid/lib:/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs/lib:/home/ros2/Documents/fa_ROS2_ws/install/car_gazebo_plugin/lib:/home/ros2/Documents/fa_ROS2_ws/install/smartcar_msgs/lib:/home/ros2/Documents/fa_ROS2_ws/install/ackermann_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorflfrK2/usr/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ros2/Documents/fa_ROS2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2/Documents/fa_ROS2_ws/build/nav2_mppi_controller

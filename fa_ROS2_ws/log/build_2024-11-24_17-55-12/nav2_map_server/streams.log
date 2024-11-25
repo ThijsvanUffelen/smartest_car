@@ -1,0 +1,151 @@
+[0.064s] Invoking command in '/home/ros2/Documents/fa_ROS2_ws/build/nav2_map_server': AMENT_PREFIX_PATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_util:/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs:/home/ros2/Documents/fa_ROS2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_util:/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs:/home/ros2/Documents/fa_ROS2_ws/install/nav2_common:/home/ros2/Documents/fa_ROS2_ws/install/smart_car:/home/ros2/Documents/fa_ROS2_ws/install/car_gazebo_plugin:/home/ros2/Documents/fa_ROS2_ws/install/smartcar_msgs:/home/ros2/Documents/fa_ROS2_ws/install/ackermann_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_util/lib:/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs/lib:/home/ros2/Documents/fa_ROS2_ws/install/car_gazebo_plugin/lib:/home/ros2/Documents/fa_ROS2_ws/install/smartcar_msgs/lib:/home/ros2/Documents/fa_ROS2_ws/install/ackermann_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorflfrK2/usr/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ros2/Documents/fa_ROS2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ros2/Documents/fa_ROS2_ws/src/navigation2/nav2_map_server -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server
+[0.450s] -- The C compiler identification is GNU 11.4.0
+[0.687s] -- The CXX compiler identification is GNU 11.4.0
+[0.725s] -- Detecting C compiler ABI info
+[1.132s] -- Detecting C compiler ABI info - done
+[1.150s] -- Check for working C compiler: /usr/lib/ccache/gcc - skipped
+[1.153s] -- Detecting C compile features
+[1.153s] -- Detecting C compile features - done
+[1.156s] -- Detecting CXX compiler ABI info
+[1.599s] -- Detecting CXX compiler ABI info - done
+[1.630s] -- Check for working CXX compiler: /usr/lib/ccache/g++ - skipped
+[1.630s] -- Detecting CXX compile features
+[1.630s] -- Detecting CXX compile features - done
+[1.643s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.269s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.461s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.553s] -- Found nav2_common: 1.1.17 (/home/ros2/Documents/fa_ROS2_ws/install/nav2_common/share/nav2_common/cmake)
+[2.567s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[2.666s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.667s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.696s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.734s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.786s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.947s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.957s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[3.025s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.069s] -- Looking for pthread.h
+[3.511s] -- Looking for pthread.h - found
+[3.511s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.977s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.985s] -- Found Threads: TRUE  
+[4.193s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[4.253s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[4.351s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[4.434s] -- Found nav2_msgs: 1.1.17 (/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+[4.567s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[4.584s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[4.592s] -- Found nav2_util: 1.1.17 (/home/ros2/Documents/fa_ROS2_ws/install/nav2_util/share/nav2_util/cmake)
+[4.757s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.758s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.758s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.835s] -- Found GRAPHICSMAGICKCPP: /usr/include/GraphicsMagick  
+[4.836s] -- Setting build type to Release as none was specified.
+[5.078s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.357s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.374s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.385s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.425s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.428s] -- Configured cppcheck include dirs: /home/ros2/Documents/fa_ROS2_ws/src/navigation2/nav2_map_server/include
+[5.430s] -- Configured cppcheck exclude dirs and/or files: 
+[5.438s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.438s] -- Configured cpplint exclude dirs and/or files: 
+[5.449s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.449s] -- Added test 'lint_cmake' to check CMake code style
+[5.449s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.449s] -- Added test 'uncrustify' to check C / C++ code style
+[5.450s] -- Configured uncrustify additional arguments: 
+[5.450s] -- Added test 'xmllint' to check XML markup files
+[5.457s] -- Configuring done
+[6.252s] -- Generating done
+[6.252s] -- Build files have been written to: /home/ros2/Documents/fa_ROS2_ws/build/nav2_map_server
+[6.304s] Invoked command in '/home/ros2/Documents/fa_ROS2_ws/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_util:/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs:/home/ros2/Documents/fa_ROS2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_util:/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs:/home/ros2/Documents/fa_ROS2_ws/install/nav2_common:/home/ros2/Documents/fa_ROS2_ws/install/smart_car:/home/ros2/Documents/fa_ROS2_ws/install/car_gazebo_plugin:/home/ros2/Documents/fa_ROS2_ws/install/smartcar_msgs:/home/ros2/Documents/fa_ROS2_ws/install/ackermann_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_util/lib:/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs/lib:/home/ros2/Documents/fa_ROS2_ws/install/car_gazebo_plugin/lib:/home/ros2/Documents/fa_ROS2_ws/install/smartcar_msgs/lib:/home/ros2/Documents/fa_ROS2_ws/install/ackermann_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorflfrK2/usr/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ros2/Documents/fa_ROS2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ros2/Documents/fa_ROS2_ws/src/navigation2/nav2_map_server -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server
+[6.321s] Invoking command in '/home/ros2/Documents/fa_ROS2_ws/build/nav2_map_server': AMENT_PREFIX_PATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_util:/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs:/home/ros2/Documents/fa_ROS2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_util:/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs:/home/ros2/Documents/fa_ROS2_ws/install/nav2_common:/home/ros2/Documents/fa_ROS2_ws/install/smart_car:/home/ros2/Documents/fa_ROS2_ws/install/car_gazebo_plugin:/home/ros2/Documents/fa_ROS2_ws/install/smartcar_msgs:/home/ros2/Documents/fa_ROS2_ws/install/ackermann_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_util/lib:/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs/lib:/home/ros2/Documents/fa_ROS2_ws/install/car_gazebo_plugin/lib:/home/ros2/Documents/fa_ROS2_ws/install/smartcar_msgs/lib:/home/ros2/Documents/fa_ROS2_ws/install/ackermann_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorflfrK2/usr/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ros2/Documents/fa_ROS2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/Documents/fa_ROS2_ws/build/nav2_map_server -- -j8 -l8
+[6.517s] [  2%] [32mBuilding CXX object CMakeFiles/map_io.dir/src/map_mode.cpp.o[0m
+[7.487s] [  5%] [32mBuilding CXX object CMakeFiles/map_io.dir/src/map_io.cpp.o[0m
+[22.541s] [  8%] [32m[1mLinking CXX shared library libmap_io.so[0m
+[23.086s] [  8%] Built target map_io
+[23.138s] [ 11%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[23.375s] [ 13%] [32m[1mLinking CXX static library libgtest.a[0m
+[23.466s] [ 13%] Built target gtest
+[23.513s] [ 16%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_publisher.dir/test_map_saver_publisher.cpp.o[0m
+[31.804s] [ 19%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_publisher.dir/__/test_constants.cpp.o[0m
+[32.119s] [ 22%] [32m[1mLinking CXX executable test_map_saver_publisher[0m
+[33.020s] [ 22%] Built target test_map_saver_publisher
+[33.094s] [ 25%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_server/map_server.cpp.o[0m
+[49.693s] [ 27%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/costmap_filter_info/costmap_filter_info_server.cpp.o[0m
+[59.316s] [ 30%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_saver/map_saver.cpp.o[0m
+[77.848s] [ 33%] [32m[1mLinking CXX shared library libmap_server_core.so[0m
+[78.454s] [ 33%] Built target map_server_core
+[78.493s] [ 36%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[78.655s] [ 38%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[78.719s] [ 38%] Built target gtest_main
+[78.774s] [ 41%] [32mBuilding CXX object CMakeFiles/costmap_filter_info_server.dir/src/costmap_filter_info/main.cpp.o[0m
+[84.343s] [ 44%] [32m[1mLinking CXX executable costmap_filter_info_server[0m
+[85.127s] [ 44%] Built target costmap_filter_info_server
+[85.190s] [ 47%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/test_map_saver_node.cpp.o[0m
+[95.289s] [ 50%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/__/test_constants.cpp.o[0m
+[95.593s] [ 52%] [32m[1mLinking CXX executable test_map_saver_node[0m
+[96.324s] [ 52%] Built target test_map_saver_node
+[96.381s] [ 55%] [32mBuilding CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/test_map_saver_cli.cpp.o[0m
+[106.624s] [ 58%] [32mBuilding CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/__/test_constants.cpp.o[0m
+[106.849s] [ 61%] [32m[1mLinking CXX executable test_map_saver_cli[0m
+[107.256s] [ 61%] Built target test_map_saver_cli
+[107.312s] [ 63%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/test_map_server_node.cpp.o[0m
+[118.430s] [ 66%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/__/test_constants.cpp.o[0m
+[118.666s] [ 69%] [32m[1mLinking CXX executable test_map_server_node[0m
+[119.190s] [ 69%] Built target test_map_server_node
+[119.240s] [ 72%] [32mBuilding CXX object test/unit/CMakeFiles/test_costmap_filter_info_server.dir/test_costmap_filter_info_server.cpp.o[0m
+[135.822s] [ 75%] [32m[1mLinking CXX executable test_costmap_filter_info_server[0m
+[136.635s] [ 75%] Built target test_costmap_filter_info_server
+[136.690s] [ 77%] [32mBuilding CXX object test/unit/CMakeFiles/test_map_io.dir/test_map_io.cpp.o[0m
+[145.110s] [ 80%] [32mBuilding CXX object test/unit/CMakeFiles/test_map_io.dir/__/test_constants.cpp.o[0m
+[145.357s] [ 83%] [32m[1mLinking CXX executable test_map_io[0m
+[145.952s] [ 83%] Built target test_map_io
+[145.993s] [ 86%] [32mBuilding CXX object CMakeFiles/map_saver_server.dir/src/map_saver/main_server.cpp.o[0m
+[151.055s] [ 88%] [32m[1mLinking CXX executable map_saver_server[0m
+[151.768s] [ 88%] Built target map_saver_server
+[151.809s] [ 91%] [32mBuilding CXX object CMakeFiles/map_saver_cli.dir/src/map_saver/main_cli.cpp.o[0m
+[157.636s] [ 94%] [32m[1mLinking CXX executable map_saver_cli[0m
+[158.383s] [ 94%] Built target map_saver_cli
+[158.468s] [ 97%] [32mBuilding CXX object CMakeFiles/map_server.dir/src/map_server/main.cpp.o[0m
+[164.194s] [100%] [32m[1mLinking CXX executable map_server[0m
+[164.785s] [100%] Built target map_server
+[164.814s] Invoked command in '/home/ros2/Documents/fa_ROS2_ws/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_util:/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs:/home/ros2/Documents/fa_ROS2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_util:/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs:/home/ros2/Documents/fa_ROS2_ws/install/nav2_common:/home/ros2/Documents/fa_ROS2_ws/install/smart_car:/home/ros2/Documents/fa_ROS2_ws/install/car_gazebo_plugin:/home/ros2/Documents/fa_ROS2_ws/install/smartcar_msgs:/home/ros2/Documents/fa_ROS2_ws/install/ackermann_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_util/lib:/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs/lib:/home/ros2/Documents/fa_ROS2_ws/install/car_gazebo_plugin/lib:/home/ros2/Documents/fa_ROS2_ws/install/smartcar_msgs/lib:/home/ros2/Documents/fa_ROS2_ws/install/ackermann_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorflfrK2/usr/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ros2/Documents/fa_ROS2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/Documents/fa_ROS2_ws/build/nav2_map_server -- -j8 -l8
+[164.945s] Invoking command in '/home/ros2/Documents/fa_ROS2_ws/build/nav2_map_server': AMENT_PREFIX_PATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_util:/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs:/home/ros2/Documents/fa_ROS2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_util:/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs:/home/ros2/Documents/fa_ROS2_ws/install/nav2_common:/home/ros2/Documents/fa_ROS2_ws/install/smart_car:/home/ros2/Documents/fa_ROS2_ws/install/car_gazebo_plugin:/home/ros2/Documents/fa_ROS2_ws/install/smartcar_msgs:/home/ros2/Documents/fa_ROS2_ws/install/ackermann_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_util/lib:/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs/lib:/home/ros2/Documents/fa_ROS2_ws/install/car_gazebo_plugin/lib:/home/ros2/Documents/fa_ROS2_ws/install/smartcar_msgs/lib:/home/ros2/Documents/fa_ROS2_ws/install/ackermann_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorflfrK2/usr/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ros2/Documents/fa_ROS2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2/Documents/fa_ROS2_ws/build/nav2_map_server
+[164.961s] -- Install configuration: "Release"
+[164.962s] -- Execute custom install script
+[164.962s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server/lib/libmap_server_core.so
+[164.979s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server/lib/libmap_io.so
+[165.001s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server/lib/nav2_map_server/map_server
+[165.021s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server/lib/nav2_map_server/map_saver_cli
+[165.048s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server/lib/nav2_map_server/map_saver_server
+[165.063s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server
+[165.080s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server/include//nav2_map_server/costmap_filter_info_server.hpp
+[165.108s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server/include//nav2_map_server/map_io.hpp
+[165.133s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server/include//nav2_map_server/map_mode.hpp
+[165.160s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server/include//nav2_map_server/map_saver.hpp
+[165.178s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server/include//nav2_map_server/map_server.hpp
+[165.195s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server/share/nav2_map_server/launch/map_saver_server.launch.py
+[165.214s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server/share/nav2_map_server/environment/library_path.sh
+[165.232s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server/share/nav2_map_server/environment/library_path.dsv
+[165.268s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server/share/ament_index/resource_index/package_run_dependencies/nav2_map_server
+[165.291s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server/share/ament_index/resource_index/parent_prefix_path/nav2_map_server
+[165.306s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.sh
+[165.331s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.dsv
+[165.356s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server/share/nav2_map_server/environment/path.sh
+[165.371s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server/share/nav2_map_server/environment/path.dsv
+[165.395s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server/share/nav2_map_server/local_setup.bash
+[165.416s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server/share/nav2_map_server/local_setup.sh
+[165.440s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server/share/nav2_map_server/local_setup.zsh
+[165.462s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server/share/nav2_map_server/local_setup.dsv
+[165.480s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server/share/nav2_map_server/package.dsv
+[165.499s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server/share/ament_index/resource_index/packages/nav2_map_server
+[165.522s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server/share/ament_index/resource_index/rclcpp_components/nav2_map_server
+[165.541s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_include_directories-extras.cmake
+[165.566s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_libraries-extras.cmake
+[165.588s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_dependencies-extras.cmake
+[165.613s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig.cmake
+[165.632s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig-version.cmake
+[165.667s] -- Symlinking: /home/ros2/Documents/fa_ROS2_ws/install/nav2_map_server/share/nav2_map_server/package.xml
+[165.694s] Invoked command in '/home/ros2/Documents/fa_ROS2_ws/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_util:/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs:/home/ros2/Documents/fa_ROS2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_util:/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs:/home/ros2/Documents/fa_ROS2_ws/install/nav2_common:/home/ros2/Documents/fa_ROS2_ws/install/smart_car:/home/ros2/Documents/fa_ROS2_ws/install/car_gazebo_plugin:/home/ros2/Documents/fa_ROS2_ws/install/smartcar_msgs:/home/ros2/Documents/fa_ROS2_ws/install/ackermann_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_util/lib:/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs/lib:/home/ros2/Documents/fa_ROS2_ws/install/car_gazebo_plugin/lib:/home/ros2/Documents/fa_ROS2_ws/install/smartcar_msgs/lib:/home/ros2/Documents/fa_ROS2_ws/install/ackermann_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorflfrK2/usr/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ros2/Documents/fa_ROS2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ros2/Documents/fa_ROS2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2/Documents/fa_ROS2_ws/build/nav2_map_server

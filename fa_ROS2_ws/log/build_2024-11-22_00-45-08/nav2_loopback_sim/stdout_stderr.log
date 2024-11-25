@@ -1,0 +1,26 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating nav2_loopback_sim.egg-info
+writing nav2_loopback_sim.egg-info/PKG-INFO
+writing dependency_links to nav2_loopback_sim.egg-info/dependency_links.txt
+writing entry points to nav2_loopback_sim.egg-info/entry_points.txt
+writing requirements to nav2_loopback_sim.egg-info/requires.txt
+writing top-level names to nav2_loopback_sim.egg-info/top_level.txt
+writing manifest file 'nav2_loopback_sim.egg-info/SOURCES.txt'
+package init file 'nav2_loopback_sim/__init__.py' not found (or not a regular file)
+reading manifest file 'nav2_loopback_sim.egg-info/SOURCES.txt'
+writing manifest file 'nav2_loopback_sim.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ros2/Documents/fa_ROS2_ws/install/nav2_loopback_sim/lib/python3.10/site-packages/nav2-loopback-sim.egg-link (link to .)
+Installing loopback_simulator script to /home/ros2/Documents/fa_ROS2_ws/install/nav2_loopback_sim/lib/nav2_loopback_sim
+
+Installed /home/ros2/Documents/fa_ROS2_ws/build/nav2_loopback_sim
+running symlink_data
+creating /home/ros2/Documents/fa_ROS2_ws/install/nav2_loopback_sim/share/ament_index
+creating /home/ros2/Documents/fa_ROS2_ws/install/nav2_loopback_sim/share/ament_index/resource_index
+creating /home/ros2/Documents/fa_ROS2_ws/install/nav2_loopback_sim/share/ament_index/resource_index/packages
+symbolically linking /home/ros2/Documents/fa_ROS2_ws/build/nav2_loopback_sim/resource/nav2_loopback_sim -> /home/ros2/Documents/fa_ROS2_ws/install/nav2_loopback_sim/share/ament_index/resource_index/packages
+symbolically linking /home/ros2/Documents/fa_ROS2_ws/build/nav2_loopback_sim/package.xml -> /home/ros2/Documents/fa_ROS2_ws/install/nav2_loopback_sim/share/nav2_loopback_sim
+symbolically linking /home/ros2/Documents/fa_ROS2_ws/build/nav2_loopback_sim/launch/loopback_simulation.launch.py -> /home/ros2/Documents/fa_ROS2_ws/install/nav2_loopback_sim/share/nav2_loopback_sim

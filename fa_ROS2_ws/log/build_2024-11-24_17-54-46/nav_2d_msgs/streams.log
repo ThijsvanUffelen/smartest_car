@@ -1,0 +1,35 @@
+[0.042s] Invoking command in '/home/ros2/Documents/fa_ROS2_ws/build/nav_2d_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros2/Documents/fa_ROS2_ws/src/navigation2/nav2_dwb_controller/nav_2d_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros2/Documents/fa_ROS2_ws/install/nav_2d_msgs
+[0.223s] -- The C compiler identification is GNU 11.4.0
+[0.349s] -- The CXX compiler identification is GNU 11.4.0
+[0.372s] -- Detecting C compiler ABI info
+[0.495s] -- Detecting C compiler ABI info - done
+[0.510s] -- Check for working C compiler: /usr/lib/ccache/gcc - skipped
+[0.510s] -- Detecting C compile features
+[0.510s] -- Detecting C compile features - done
+[0.514s] -- Detecting CXX compiler ABI info
+[0.682s] -- Detecting CXX compiler ABI info - done
+[0.694s] -- Check for working CXX compiler: /usr/lib/ccache/g++ - skipped
+[0.695s] -- Detecting CXX compile features
+[0.695s] -- Detecting CXX compile features - done
+[0.703s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.965s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.075s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.190s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.194s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.209s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.229s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.255s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.321s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.809s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.625s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.974s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.027s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.031s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.087s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.088s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.088s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.088s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.125s] -- Found PythonExtra: .so  
+[3.230s] -- Configuring done
+[3.298s] -- Generating done
+[3.300s] -- Build files have been written to: /home/ros2/Documents/fa_ROS2_ws/build/nav_2d_msgs
