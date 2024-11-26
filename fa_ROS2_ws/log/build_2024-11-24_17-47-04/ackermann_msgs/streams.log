@@ -1,9 +1,0 @@
-[0.020s] Invoking command in '/home/ros2/Documents/fa_ROS2_ws/build/ackermann_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2/Documents/fa_ROS2_ws/build/ackermann_msgs -- -j8 -l8
-[0.177s] failed to create symbolic link '/home/ros2/Documents/fa_ROS2_ws/build/ackermann_msgs/ament_cmake_python/ackermann_msgs/ackermann_msgs' because existing path cannot be removed: Is a directory
-[0.179s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_ackermann_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_ackermann_msgs] Error 1
-[0.179s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_ackermann_msgs.dir/all] Error 2
-[0.180s] gmake[1]: *** Waiting for unfinished jobs....
-[0.191s] [  2%] Built target ackermann_msgs__cpp
-[0.193s] [ 12%] Built target ackermann_msgs__rosidl_generator_c
-[0.195s] gmake: *** [Makefile:146: all] Error 2
-[0.197s] Invoked command in '/home/ros2/Documents/fa_ROS2_ws/build/ackermann_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2/Documents/fa_ROS2_ws/build/ackermann_msgs -- -j8 -l8
